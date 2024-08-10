@@ -1,0 +1,32 @@
+body{
+    background-image: url(pagina/src/my-deer-friend-nokotan-trailer.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+h1{
+    color: rgb(163, 29, 29);
+    font-family: "Creepster", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 150px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 10vh;
+    text-align: center;
+}
+
+.ruleta{
+    height: 300px;
+    margin: 200px;
+    margin-top: 20px;
+    display: inline-block;
+    transition: transform 0.5s ease;
+}
+
+.ruleta:hover{
+    transform: rotate(360deg);
+}
